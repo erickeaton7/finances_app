@@ -1,16 +1,15 @@
-# finances_app
+# Financial Tracker App
 
-A new Flutter project.
+This is a Flutter application designed to help users manage their finances. It calculates the user's spending allowance for each day and the rest of the month based on their bank account balance, savings goals, credit card debts, and major upcoming transactions.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+To install the app, you need to have Flutter and Dart set up on your machine. If you haven't done so, follow the instructions [here](https://flutter.dev/docs/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+Then, you can clone the repository and build the app:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+git clone https://github.com/erickeaton7/finances_app.git
+cd repository
+flutter pub get
+flutter run
